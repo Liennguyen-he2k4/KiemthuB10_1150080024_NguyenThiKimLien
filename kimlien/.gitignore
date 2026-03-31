@@ -1,0 +1,6 @@
+kimlien/SeleniumFramework/target/
+.idea/
+*.iml
+screenshots/
+*.log
+.DS_Store
