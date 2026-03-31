@@ -15,9 +15,10 @@ public abstract class BasePage {
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
-        // ✅ SỬA: đọc từ ConfigReader thay vì hardcode 15
-        int waitSeconds = ConfigReader.getInstance().getExplicitWait();
+
+        long waitSeconds = ConfigReader.getInstance().getExplicitWait();
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(waitSeconds));
+
         PageFactory.initElements(driver, this);
     }
 
