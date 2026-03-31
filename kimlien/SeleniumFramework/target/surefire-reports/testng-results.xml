@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-31T13:52:43 ICT" name="Smoke Test Suite" finished-at="2026-03-31T13:53:06 ICT" duration-ms="23376">
+  <suite started-at="2026-03-31T14:15:53 ICT" name="Smoke Test Suite" finished-at="2026-03-31T14:16:15 ICT" duration-ms="22437">
     <groups>
     </groups>
-    <test started-at="2026-03-31T13:52:43 ICT" name="Login Smoke Tests" finished-at="2026-03-31T13:53:06 ICT" duration-ms="23376">
+    <test started-at="2026-03-31T14:15:53 ICT" name="Login Smoke Tests" finished-at="2026-03-31T14:16:15 ICT" duration-ms="22437">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@742ff096]" started-at="2026-03-31T13:52:43 ICT" name="setUp" finished-at="2026-03-31T13:52:49 ICT" duration-ms="5922" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@742ff096]" started-at="2026-03-31T14:15:53 ICT" name="setUp" finished-at="2026-03-31T14:15:59 ICT" duration-ms="5740" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,11 +23,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginEmptyUsername()[pri:0, instance:tests.LoginTest@742ff096]" started-at="2026-03-31T13:52:49 ICT" name="testLoginEmptyUsername" description="Đăng nhập thất bại - để trống username" finished-at="2026-03-31T13:52:49 ICT" duration-ms="437" status="PASS">
+        <test-method signature="testLoginEmptyUsername()[pri:0, instance:tests.LoginTest@742ff096]" started-at="2026-03-31T14:15:59 ICT" name="testLoginEmptyUsername" description="Đăng nhập thất bại - để trống username" finished-at="2026-03-31T14:15:59 ICT" duration-ms="562" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginEmptyUsername -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@742ff096]" started-at="2026-03-31T13:52:49 ICT" name="tearDown" finished-at="2026-03-31T13:52:49 ICT" duration-ms="225" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@742ff096]" started-at="2026-03-31T14:15:59 ICT" name="tearDown" finished-at="2026-03-31T14:15:59 ICT" duration-ms="208" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,7 +38,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@742ff096]" started-at="2026-03-31T13:52:49 ICT" name="setUp" finished-at="2026-03-31T13:52:54 ICT" duration-ms="4926" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@742ff096]" started-at="2026-03-31T14:15:59 ICT" name="setUp" finished-at="2026-03-31T14:16:04 ICT" duration-ms="4307" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -54,11 +54,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginLockedUser()[pri:0, instance:tests.LoginTest@742ff096]" started-at="2026-03-31T13:52:54 ICT" name="testLoginLockedUser" description="Đăng nhập thất bại - tài khoản bị khoá" finished-at="2026-03-31T13:52:55 ICT" duration-ms="550" status="PASS">
+        <test-method signature="testLoginLockedUser()[pri:0, instance:tests.LoginTest@742ff096]" started-at="2026-03-31T14:16:04 ICT" name="testLoginLockedUser" description="Đăng nhập thất bại - tài khoản bị khoá" finished-at="2026-03-31T14:16:04 ICT" duration-ms="518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginLockedUser -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@742ff096]" started-at="2026-03-31T13:52:55 ICT" name="tearDown" finished-at="2026-03-31T13:52:55 ICT" duration-ms="163" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@742ff096]" started-at="2026-03-31T14:16:04 ICT" name="tearDown" finished-at="2026-03-31T14:16:05 ICT" duration-ms="195" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@742ff096]" started-at="2026-03-31T13:52:55 ICT" name="setUp" finished-at="2026-03-31T13:52:59 ICT" duration-ms="4006" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@742ff096]" started-at="2026-03-31T14:16:05 ICT" name="setUp" finished-at="2026-03-31T14:16:09 ICT" duration-ms="4893" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,11 +85,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginSuccess()[pri:0, instance:tests.LoginTest@742ff096]" started-at="2026-03-31T13:52:59 ICT" name="testLoginSuccess" description="Đăng nhập thành công với tài khoản hợp lệ" finished-at="2026-03-31T13:52:59 ICT" duration-ms="474" status="PASS">
+        <test-method signature="testLoginSuccess()[pri:0, instance:tests.LoginTest@742ff096]" started-at="2026-03-31T14:16:09 ICT" name="testLoginSuccess" description="Đăng nhập thành công với tài khoản hợp lệ" finished-at="2026-03-31T14:16:10 ICT" duration-ms="503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginSuccess -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@742ff096]" started-at="2026-03-31T13:52:59 ICT" name="tearDown" finished-at="2026-03-31T13:53:00 ICT" duration-ms="235" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@742ff096]" started-at="2026-03-31T14:16:10 ICT" name="tearDown" finished-at="2026-03-31T14:16:10 ICT" duration-ms="248" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -100,7 +100,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@742ff096]" started-at="2026-03-31T13:53:00 ICT" name="setUp" finished-at="2026-03-31T13:53:05 ICT" duration-ms="5673" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@742ff096]" started-at="2026-03-31T14:16:10 ICT" name="setUp" finished-at="2026-03-31T14:16:15 ICT" duration-ms="4407" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -116,11 +116,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginWrongPassword()[pri:0, instance:tests.LoginTest@742ff096]" started-at="2026-03-31T13:53:05 ICT" name="testLoginWrongPassword" description="Đăng nhập thất bại - sai mật khẩu" finished-at="2026-03-31T13:53:06 ICT" duration-ms="446" status="PASS">
+        <test-method signature="testLoginWrongPassword()[pri:0, instance:tests.LoginTest@742ff096]" started-at="2026-03-31T14:16:15 ICT" name="testLoginWrongPassword" description="Đăng nhập thất bại - sai mật khẩu" finished-at="2026-03-31T14:16:15 ICT" duration-ms="501" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWrongPassword -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@742ff096]" started-at="2026-03-31T13:53:06 ICT" name="tearDown" finished-at="2026-03-31T13:53:06 ICT" duration-ms="165" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@742ff096]" started-at="2026-03-31T14:16:15 ICT" name="tearDown" finished-at="2026-03-31T14:16:15 ICT" duration-ms="177" status="PASS">
           <params>
             <param index="0">
               <value>
